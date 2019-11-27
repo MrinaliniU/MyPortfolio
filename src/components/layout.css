@@ -1,9 +1,11 @@
 :root {
-  --mainBrown: #2d1ef1;
+  --mainBrown: #2d1e1f;
   --mainYellow: #ff9e09;
   --mainGrey: #ece8dc;
   --mainWhite: #fff;
   --mainDark: #222;
+  --lightBlue: #9dc9f2;
+  --mainBlue: #1a3e5e;
 }
 
 body {
@@ -26,7 +28,38 @@ h6 {
   color: var(--mainYellow);
 }
 
-.git-icon {
+.nav-icon {
   cursor: pointer;
+  color: var(--mainBlue);
+}
+
+.text-f {
+  color: var(--mainBlue);
+  font-weight: bold;
+  margin-left: 30vh;
+}
+
+.para-f {
+  color: var(--mainDark);
+  margin-right: 100vh;
+  margin-top: 10vh;
+  font-size: small;
+}
+
+.default-background {
+  min-height: 100vh;
+  display: flex;
+  background: linear-gradient(rgba(255, 158, 9, 0.3), (rgba(255, 158, 9, 0.3)));
+  background-position: center;
+  background-size: cover;
+}
+
+.btn-yellow {
   color: var(--mainYellow);
+  border-color: var(--mainYellow);
+}
+
+.btn-yellow:hover {
+  background: var(--mainYellow);
+  color: var(--mainBrown);
 }

@@ -53,10 +53,10 @@ export default class Navbar extends Component {
               );
             })}
             <li className="nav-item ml-sm-5">
-              <FaGithubAlt className="git-icon" size={35} />
+              <FaGithubAlt className="nav-icon" size={35} />
             </li>
             <li className="nav-item ml-sm-3">
-              <FaFilePdf size={30} />
+              <FaFilePdf className="nav-icon" size={30} />
             </li>
           </ul>
         </div>
