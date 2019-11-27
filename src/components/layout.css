@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Calistoga&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Gupter&display=swap");
 :root {
   --mainBrown: #2d1e1f;
   --mainYellow: #ff9e09;
@@ -6,12 +8,13 @@
   --mainDark: #222;
   --lightBlue: #9dc9f2;
   --mainBlue: #1a3e5e;
+  --navGrey: #7f7f7f;
 }
 
 body {
   background: var(--mainWhite);
   color: var(--mainDark);
-  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  font-family: "Gupter", serif !important;
 }
 
 h1,
@@ -20,46 +23,90 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Courier New", Courier, monospace !important;
+  font-family: "Gupter", serif !important;
   letter-spacing: 0.25rem !important;
+}
+
+.text-dark {
+  color: var(--mainDark);
+}
+.text-dark-heading {
+  color: var(--mainYellow);
+  align-items: stretch;
+}
+
+.box-job {
+  margin-left: 10vh;
+  margin-right: 10vh;
+}
+
+.entire-grid {
+  padding-bottom: 20vh;
+}
+
+.text-white {
+  color: var(--mainWhite);
 }
 
 .text-yellow {
   color: var(--mainYellow);
 }
 
+.text-blue {
+  color: var(--mainBlue);
+}
+
+.nav-text {
+  font-family: "Gupter", serif !important;
+  font-size: 4vh;
+  font-weight: bold;
+}
+
 .nav-icon {
   cursor: pointer;
+  color: var(--navGrey);
+  font-size: 5vh;
+}
+
+.nav-icon:hover {
+  cursor: pointer;
   color: var(--mainBlue);
+  font-size: 5.5vh;
+}
+
+.text-para,
+.text-f {
+  color: var(--mainDark);
+  font-family: "Gupter", serif !important;
 }
 
 .text-f {
-  color: var(--mainBlue);
   font-weight: bold;
-  margin-left: 30vh;
+  margin-top: 20vh;
 }
 
-.para-f {
-  color: var(--mainDark);
-  margin-right: 100vh;
-  margin-top: 10vh;
-  font-size: small;
-}
-
-.default-background {
-  min-height: 100vh;
+.default-background,
+.experience-background {
+  min-height: 90vh;
   display: flex;
-  background: linear-gradient(rgba(255, 158, 9, 0.3), (rgba(255, 158, 9, 0.3)));
   background-position: center;
   background-size: cover;
 }
 
-.btn-yellow {
-  color: var(--mainYellow);
-  border-color: var(--mainYellow);
+.experience-background {
+  min-height: 60vh;
 }
 
-.btn-yellow:hover {
-  background: var(--mainYellow);
-  color: var(--mainBrown);
+.btn-black {
+  color: var(--mainDark);
+  border-color: var(--mainDark);
+}
+
+.btn-black:hover {
+  background: var(--mainDark);
+  color: var(--mainWhite);
+}
+
+.footer {
+  background: var(--mainDark);
 }

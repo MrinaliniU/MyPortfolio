@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@material-ui/core": "^4.7.0",
     "gatsby": "^2.17.6",
     "gatsby-background-image": "^0.9.7",
     "gatsby-image": "^2.2.30",
@@ -18,7 +19,9 @@
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-helmet": "^5.2.1",
-    "react-icons": "^3.8.0"
+    "react-icons": "^3.8.0",
+    "react-vertical-timeline-component": "^2.5.0",
+    "smooth-scroll": "^16.1.0"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
