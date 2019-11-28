@@ -26,7 +26,7 @@ export default function ProjectWork() {
       <div>
         <h1
           align="center"
-          className="display-4 text-capitalize font-weight-bold"
+          className="display-4 text-capitalize font-weight-bold text-blue"
         >
           My Projects
         </h1>
@@ -40,7 +40,7 @@ export default function ProjectWork() {
                 date="Jan 2019 - May 2019"
                 p1="Developed android application in Kotlin and contributed code to handle camera activities and image conversion logic."
                 p2="Designed Content Provider to store application data such as human actions that were recognized and performance log of
-the TFLite model using Kotlin and Android ."
+  the TFLite model using Kotlin and Android ."
               />
             </Paper>
           </Grid>

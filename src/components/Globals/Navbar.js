@@ -6,7 +6,7 @@ import { FaLinkedin, FaGithubAlt, FaFilePdf } from "react-icons/fa"
 export default class Navbar extends Component {
   state = {
     navBarOpen: false,
-    css: "collapse navbar-collapse",
+    css: "navbar-collapse collapse",
     links: [
       {
         id: 1,
@@ -27,7 +27,10 @@ export default class Navbar extends Component {
   }
   navBarHandler = () => {
     this.state.navBarOpen
-      ? this.setState({ navBarOpen: false, css: "collapse navbar-collapse" })
+      ? this.setState({
+          navBarOpen: false,
+          css: "collapse navbar-collapse",
+        })
       : this.setState({
           navBarOpen: true,
           css: "collapse navbar-collapse show",
@@ -57,20 +60,6 @@ export default class Navbar extends Component {
                 </li>
               )
             })}
-          </ul>
-        </div>
-        <div>
-          <ul className="navbar-nav mx-auto mr-sm-3">
-            <li className="nav-item ml-sm-3">
-              <a href="https://www.linkedin.com/in/mupadhya/" target="_blank">
-                <FaLinkedin className="nav-icon" />
-              </a>
-            </li>
-            <li className="nav-item ml-sm-3">
-              <a href="https://github.com/MrinaliniU" target="_blank">
-                <FaGithubAlt className="nav-icon" />
-              </a>
-            </li>
           </ul>
         </div>
       </nav>

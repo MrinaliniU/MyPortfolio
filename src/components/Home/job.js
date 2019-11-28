@@ -28,7 +28,7 @@ export default function SpacingGrid() {
       <div>
         <h1
           align="center"
-          className="display-4 text-capitalize font-weight-bold"
+          className="display-4 text-capitalize font-weight-bold text-blue"
         >
           Where I have Worked
         </h1>

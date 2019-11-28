@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Calistoga&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Gupter&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 :root {
   --mainBrown: #2d1e1f;
   --mainYellow: #ff9e09;
@@ -35,6 +36,10 @@ h6 {
   align-items: stretch;
 }
 
+.box-text-title {
+  font-weight: bold;
+  color: var(--mainBlue);
+}
 .box-job {
   margin-left: 10vh;
   margin-right: 10vh;
@@ -52,8 +57,12 @@ h6 {
   color: var(--mainYellow);
 }
 
-.text-blue {
+.text-blue,
+.text-blue-spe {
   color: var(--mainBlue);
+}
+.text-blue-spe {
+  font-family: "Permanent Marker", cursive !important;
 }
 
 .nav-text {
@@ -64,8 +73,9 @@ h6 {
 
 .nav-icon {
   cursor: pointer;
-  color: var(--navGrey);
+  color: var(--mainBlue);
   font-size: 5vh;
+  margin-right: 5vh;
 }
 
 .nav-icon:hover {
@@ -77,6 +87,7 @@ h6 {
 .text-para,
 .text-f {
   color: var(--mainDark);
+  text-align: center;
   font-family: "Gupter", serif !important;
 }
 
@@ -100,10 +111,12 @@ h6 {
 .btn-black {
   color: var(--mainDark);
   border-color: var(--mainDark);
+  border-block-end-width: thick;
+  margin-right: 5vh;
 }
 
 .btn-black:hover {
-  background: var(--mainDark);
+  background: var(--mainBlue);
   color: var(--mainWhite);
 }
 

@@ -4,7 +4,7 @@ export default function Title({ title }) {
   return (
     <div className="row">
       <div className="col text-center mb-3">
-        <h1 className="display-4 text-capitalize font-weight-bold text-dark">
+        <h1 className="display-4 text-capitalize font-weight-bold text-blue">
           {title}
         </h1>
       </div>
