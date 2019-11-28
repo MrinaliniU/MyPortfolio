@@ -19,9 +19,10 @@ export default function BackgroundSection({
             </h1>
             <h2 className="text-para">I'm a Software Engineer.</h2>
             <p className="text-para">
-              I'm passionate about coding and love building cool things. I spend
-              my free time building cool web/mobile apps. I work mostly in Java
-              and or JS, check-out my GitHub for some of my most recent work.
+              I'm passionate about coding and love building cool applications. I
+              love to test my understanding of new tech stacks that I learn by
+              building mobile/Web apps. I work mostly in Java, JS and React
+              check-out my GitHub for some of my most recent projects.
             </p>
             <div align="center">
               <a href="https://github.com/MrinaliniU" target="_blank">
