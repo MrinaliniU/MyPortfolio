@@ -1,7 +1,6 @@
-import React, { Component } from "react"
-import { Link } from "gatsby"
-import logo from "../../images/logo.png"
-import { FaLinkedin, FaGithubAlt, FaFilePdf } from "react-icons/fa"
+import React, { Component } from "react";
+import { Link } from "gatsby";
+import logo from "../../images/logo.png";
 
 export default class Navbar extends Component {
   state = {
@@ -11,31 +10,31 @@ export default class Navbar extends Component {
       {
         id: 1,
         path: "/#about-me",
-        text: "About Me",
+        text: "About Me"
       },
       {
         id: 2,
         path: "/#job",
-        text: "Experience",
+        text: "Experience"
       },
       {
         id: 3,
         path: "/#project",
-        text: "Projects",
-      },
-    ],
-  }
+        text: "Projects"
+      }
+    ]
+  };
   navBarHandler = () => {
     this.state.navBarOpen
       ? this.setState({
           navBarOpen: false,
-          css: "collapse navbar-collapse",
+          css: "collapse navbar-collapse"
         })
       : this.setState({
           navBarOpen: true,
-          css: "collapse navbar-collapse show",
-        })
-  }
+          css: "collapse navbar-collapse show"
+        });
+  };
   render() {
     return (
       <nav className="navbar navbar-expand-sm navbar-light nav-text">
@@ -58,11 +57,11 @@ export default class Navbar extends Component {
                     {link.text}
                   </Link>
                 </li>
-              )
+              );
             })}
           </ul>
         </div>
       </nav>
-    )
+    );
   }
 }
