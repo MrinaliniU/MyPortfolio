@@ -1,13 +1,13 @@
-import React from "react"
-import BackgroundImage from "gatsby-background-image"
-import { Link, graphql } from "gatsby"
-import { FaLinkedin, FaGithubAlt, FaFilePdf } from "react-icons/fa"
+import React from "react";
+import BackgroundImage from "gatsby-background-image";
+import { Link, graphql } from "gatsby";
+import { FaLinkedin, FaGithubAlt, FaFilePdf } from "react-icons/fa";
 
 export default function BackgroundSection({
   img,
   styleClass,
   title,
-  children,
+  children
 }) {
   return (
     <BackgroundImage className={styleClass} fluid={img}>
@@ -31,7 +31,10 @@ export default function BackgroundSection({
               <a href="https://www.linkedin.com/in/mupadhya/" target="_blank">
                 <FaLinkedin className="nav-icon" />
               </a>
-              <a href="/resumeMel.pdf" target="_blank">
+              <a
+                href="/Mrinalini_Upadhya_FullStack_SoftwareEngineer.pdf"
+                target="_blank"
+              >
                 <button className="btn text-uppercase btn-black">Resume</button>
               </a>
             </div>
@@ -41,10 +44,10 @@ export default function BackgroundSection({
 
       {/*{children} */}
     </BackgroundImage>
-  )
+  );
 }
 
 BackgroundSection.defaultProps = {
   title: "default title",
-  styleClass: "default-background",
-}
+  styleClass: "default-background"
+};
